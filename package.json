@@ -1,0 +1,34 @@
+{
+  "name": "lwc-stage1",
+  "version": "1.0.0",
+  "description": "Stage 1 of the Lawfully White Construction Ltd website",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Lawfully",
+    "White",
+    "Construction",
+    "extension",
+    "builders",
+    "conversion",
+    "house"
+  ],
+  "author": "Charlene Grant",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
